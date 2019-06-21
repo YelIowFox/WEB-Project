@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
+/* What we're selecting */
+h1{
+  /* How to style it */
+  font-weight: 200;
+  font-size: 70px;
+  text-transform: uppercase;
+  border-top: 5px solid brown;
+  border-bottom: 5px solid brown;
+}
+
+body{
+  background-color: #4d1a00;
+  color: #ffffff;
+  font-family: "Monoton";
+  font-size: 9px;
+}
+
+img{
+  height: 500px;
+  border-radius: 30%;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button{
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4d1a00;
+  font-size: 30px;
+  font-family: "Monoton";
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-width: thick;
+  border-radius: 6.9px;
+  text-transform: uppercase;
+  letter-spacing;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: .5s;
+  background-color: #ffffff;
+  color: #4d1a00;
+  font-size: 45px;
+  transform: rotate(12.45rad);
+  border-width: 39px;
+  font-family: "Monoton";
+}
+
+button:active{
+  background-color: #4d1a00;
+  color: #ffffff;
+}
+
+p{
+  font-size: 50px;
+}
