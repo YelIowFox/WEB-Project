@@ -1,25 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
 
-/* What we're selecting */
 h1{
-  /* How to style it */
   font-weight: 200;
   font-size: 70px;
   text-transform: uppercase;
-  border-top: 5px solid brown;
-  border-bottom: 5px solid brown;
+  border-top: 10px solid brown;
+  border-bottom: 10px solid brown;
 }
 
 body{
   background-color: #4d1a00;
   color: #ffffff;
   font-family: "Monoton";
-  font-size: 9px;
+  font-size: 40px;
+}
+
+p{
+  font-size: 10px;
 }
 
 img{
   height: 500px;
-  border-radius: 30%;
+  border-radius: 20%;
 }
 #container{
   display: flex;
@@ -27,6 +29,23 @@ img{
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+#container_2{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 25vh;
+}
+
+.image{
+  height: 30%;
+  border-radius: 10%;
+}
+
+.image_2{
+  height: 30%;
 }
 
 button{
@@ -60,8 +79,4 @@ button:hover {
 button:active{
   background-color: #4d1a00;
   color: #ffffff;
-}
-
-p{
-  font-size: 50px;
 }
