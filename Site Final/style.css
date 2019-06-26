@@ -9,22 +9,35 @@ nav{
   align-items: center;
   min-height: 8vh;
   background-color: #993300;
-  font-family: 'Aguafina Script', cursive;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .logo{
-  display: flex;
-  justify-content: stretch;
-  width: 75%; 
   color: white;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .nav-links{
   display: flex;
   justify-content: space-around;
-  width: 100%;
-  /* background-color: white; */
+  width: 30%;
+}
+
+.nav-links li{
+  list-style: none;
+}
+
+.nav-links a{
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.burger div{
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
 }
