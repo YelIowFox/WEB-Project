@@ -1,2 +1,2 @@
 # WEB-Project
-Music producing/beats shop
+Music production/beats shop
